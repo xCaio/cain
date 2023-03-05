@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #FFF;
+    text-shadow: 1px 1px #000;
+    margin-top: 50px;
+}
+header img{
+    margin-top: 15px;
+}
+
+body{
+    height: 90vh;
+    background: linear-gradient(rgba(10, 10, 10, 0.2), rgba(0, 0, 0, 0.4)),
+    repeating-linear-gradient(0, transparent, transparent 2px, black 3px, black 3px),
+    url(https://raw.githubusercontent.com/LetMeWoosh/cdn/main/image2.gif);
+    background-color: #141415;
+    background-repeat: no-repeat;
+    
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    transition: 1s;
+}
+img:hover{
+    transform: rotate(360deg) scale(1.2);
+    box-shadow: 2px 2px #000;
+}
+
+/*NAVIGATION*/
+ul{
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #FFF;
+    transition: 1s;
+}
+a:hover{
+    font-size: 16px;
+    text-shadow: 1px 1px red;
+
+}
+ul li{
+    color: #FFF;
+    margin-bottom: 5px;
+
+}
